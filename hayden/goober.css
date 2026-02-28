@@ -1,0 +1,16 @@
+.main {
+    background-image: url('../images/textures/texture1.png');
+    background-size: 20%;
+    image-rendering: pixelated;
+}
+
+.link {
+    backdrop-filter:blur(5px);
+}
+
+.intro {
+    color: rgb(148, 226, 187);
+    backdrop-filter:blur(5px);
+    font-family:'Trebuchet MS';
+    
+    }
