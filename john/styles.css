@@ -15,10 +15,15 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 .top-section {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
+    align-items: center;
     gap: 1.5rem;
 }
 
@@ -52,9 +57,20 @@ a {
     gap: 1rem;
 }
 
-.videos {
-    padding: 5rem;
+iframe {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16 / 9;
+  border: none;
 }
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+
 
 
 /* 
