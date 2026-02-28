@@ -1,0 +1,35 @@
+.main {
+    background-image: url('../images/textures/texture1.png');
+    background-size: 20%;
+    image-rendering: pixelated;
+    margin: 0px;
+}
+
+.top_banner {
+    backdrop-filter: blur(5px);
+    font-family:'Trebuchet MS';
+    height: 16vh;
+    width: 100%;
+    padding:2%;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: rgb(0, 35, 68);
+    background-color:rgba(5, 17, 48, 0.664);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_panel {
+    justify-content:center;
+    color: rgb(148, 226, 187);
+    background-color:rgba(0, 0, 0, 0.315);
+    padding:5%;
+    clip-path:rect(10px 10px 10px 10px);
+}
+
+
+.link {
+    backdrop-filter:blur(5px);
+    margin:10px;
+}
