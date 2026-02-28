@@ -1,0 +1,86 @@
+/* background=black, column format */
+body {
+    background-color: #191a1c;
+    flex-direction: column;
+}
+
+/* no text dec, slightly bold */
+a {
+    font-weight: 500;
+}
+
+/* text color=white, font=roboto */
+* {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-section {
+    display: flex;
+    padding: 0.2rem;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.titles {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.mid-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0rem;
+    gap: 1rem;
+}
+
+
+/* 
+past css for reference
+.columns {
+    flex-direction: column;
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.left-side, .right-side {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1em;
+} */
