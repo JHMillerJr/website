@@ -1,7 +1,6 @@
 /* background=black, column format */
 body {
     background-color: #191a1c;
-    flex-direction: column;
 }
 
 /* no text dec, slightly bold */
@@ -18,7 +17,7 @@ a {
 
 .top-section {
     display: flex;
-    padding: 0.2rem;
+    padding: 1rem;
     justify-content: space-between;
     gap: 1.5rem;
 }
@@ -43,8 +42,18 @@ a {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 0rem;
+    gap: 2rem;
+}
+
+.title-links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     gap: 1rem;
+}
+
+.videos {
+    padding: 5rem;
 }
 
 
