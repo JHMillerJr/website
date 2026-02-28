@@ -1,0 +1,9 @@
+links to references
+
+html
+elements: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements
+attributes: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes
+
+css
+cheat sheet: https://developer.mozilla.org/en-US/docs/Web/CSS
+reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
