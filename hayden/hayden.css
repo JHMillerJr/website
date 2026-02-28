@@ -1,5 +1,7 @@
 .main {
+    background-color:BLACK;
     background-image: url('../images/textures/texture1.png');
+    background-blend-mode:hard-light;
     background-size: 20%;
     image-rendering: pixelated;
     margin: 0px;
@@ -24,8 +26,10 @@
     justify-content:center;
     color: rgb(148, 226, 187);
     background-color:rgba(0, 0, 0, 0.315);
-    padding:5%;
-    clip-path:rect(10px 10px 10px 10px);
+    padding:22px;
+    padding-left:35px;
+    padding-right:35px;
+    
 }
 
 
